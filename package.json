@@ -1,5 +1,5 @@
 {
-  "home": "https://nicoposa1.github.io/RickAndMorty",
+  "home": "https://nicoposa1.github.io/RickAndMorty/",
   "name": "rickam",
   "version": "0.1.0",
   "private": true,
@@ -18,8 +18,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "proedeploy": "npm run build",
-    "deploy": "gh-pages -d build https://$GH_TOKEN@github.com/nicoposa1/RickAndMorty"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
