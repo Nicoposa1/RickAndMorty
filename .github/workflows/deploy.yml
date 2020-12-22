@@ -2,7 +2,7 @@ name: Rick and Morty
 on:
   push:
     branches:
-      - main
+      - master
 jobs:
  deploy:
   name: Rick and Morty
@@ -26,4 +26,3 @@ steps:
     run: npm run deploy
     env:
       GH_TOKEN: ${{  secrets.GH_TOKEN }} 
-      
